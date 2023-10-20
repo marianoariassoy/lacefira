@@ -29,7 +29,7 @@ const Hero = () => {
             className='absolute right-0 -mt-10 -mr-12 z-10'
           />
           <img
-            src='http://marianoarias.soy/sites/cefira-backend/images-statics/home.webp'
+            src='https://marianoarias.soy/sites/cefira-backend/images-statics/home.webp'
             alt='Imagen de presentación'
             className='w-full'
           />

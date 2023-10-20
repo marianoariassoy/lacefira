@@ -45,7 +45,7 @@ const Productos = () => {
             className={`opacity-0 ${inView2 ? 'fade-in' : ''}`}
             ref={ref2}
           >
-            <img src='http://marianoarias.soy/sites/cefira-backend/images-statics/productos.webp' />
+            <img src='https://marianoarias.soy/sites/cefira-backend/images-statics/productos.webp' />
           </div>
         </div>
       </div>

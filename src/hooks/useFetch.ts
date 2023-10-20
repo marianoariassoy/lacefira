@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-const apiUrl = 'http://marianoarias.soy/sites/cefira-backend/api'
+const apiUrl = 'https://marianoarias.soy/sites/cefira-backend/api'
 import axios from 'axios'
 
 type Data = string
