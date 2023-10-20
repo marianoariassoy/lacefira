@@ -1,0 +1,56 @@
+.hover-underline-animation {
+  position: relative;
+  cursor: pointer;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: currentColor;
+  transform-origin: bottom left;
+  transition: transform 0.2s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.header-small {
+  padding-top: 1rem;
+  div {
+    .logo {
+      svg {
+        width: 100px;
+      }
+    }
+  }
+}
+
+header {
+  section {
+    div {
+      .logo {
+        svg {
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+}
+
+.logo {
+  svg {
+    @media (max-width: 980px) {
+      width: 100px;
+    }
+  }
+}
